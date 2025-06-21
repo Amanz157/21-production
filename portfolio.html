@@ -8,31 +8,53 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #121212;
+      font-size: 16px;
+      background-color: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       color: #f1f1f1;
+      }
+  main {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 20px;
     }
     header, section, footer {
       padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
+      background-color: rgba(18, 18, 18, 0.8);
+      border-radius: 10px;
+      padding: 40px;
+      margin: 20px 0;
     }
     header {
       text-align: center;
       padding-top: 80px;
     }
     header h1 {
+      font-family: Georgia, serif;
       font-size: 3em;
+      font-weight: 700;
       margin-bottom: 10px;
     }
+    header p {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #bbb;
+       }
     nav {
       text-align: center;
       padding: 20px;
-      background-color: #1e1e1e;
+      background-color: rgba(30, 30, 30, 0.8);
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
     nav a {
       color: #03dac6;
       margin: 0 15px;
       text-decoration: none;
+      font-weight: 600;
     }
     nav a:hover {
       text-decoration: underline;
